@@ -26,7 +26,7 @@ repository_url: https://github.com/vlabsys
 
 # Build settings
 incremental: true
-#livereload: true
+livereload: true
 markdown: kramdown
 theme: jekyll-theme-cayman
 plugins:

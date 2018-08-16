@@ -20,4 +20,5 @@ Beside aforementioned design goal, VLAB is also cross-platform and be able to wo
 
 ![VLabAnalysis](assets/images/VLabAnalysisCapture.PNG "VLabAnalysis")
 #### Authors and Contributors
-Li Alex Zhang (@babaq)
+@babaq
+@leoscholl
