@@ -134,7 +134,7 @@ markdown: kramdown
 highlighter : rouge
 
 permalink   : date
-theme: jekyll-text-theme #jekyll-theme-cayman
+#theme: jekyll-text-theme #jekyll-theme-cayman
 remote_theme: kitian616/jekyll-text-theme 
 plugins:
   - jekyll-feed
