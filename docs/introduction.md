@@ -1,11 +1,6 @@
 ---
-layout: article
 title: Introduction
-sidebar:
-  nav: docs
-
 ---
-
 
 VLAB is a distributed system for neuroscence/phycology/behavior studies, currently compose of three programs which can reside on different machines on a local network.
 
