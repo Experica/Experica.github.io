@@ -1,0 +1,16 @@
+header:
+  - title: Documentation
+    url:   /docs/introduction
+  - title: About
+    url:   /about
+  - title: GitHub
+    url:   https://github.com/vlabsys
+
+docs:
+  - title: Start
+    children:
+      - title: Introduction
+        url: /docs/introduction
+      - title: Setup
+        url: /docs/setup
+  - title: Design Experiment

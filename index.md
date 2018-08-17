@@ -1,3 +1,6 @@
+---
+layout: article
+---
 “Rome wasn't built in a day”, so is our understanding of the world. All heroic adventures in our history started by testing and experimenting in a confined and controlled environment. This is actually a virtual environment in a laboratory and VLAB is a software system to help us managing the virtual environment.
 
 Given a virtual environment, if we can intercept and insert any logic between interaction of subjects, then we can analyze the physical laws of the world and through which to control the world. VLAB is designed on those conceptions and try to achieve several favorable traits.
@@ -16,9 +19,9 @@ Given a virtual environment, if we can intercept and insert any logic between in
 
 Beside aforementioned design goal, VLAB is also cross-platform and be able to work with many hardware systems. We hope VLAB could help scientists and engineers, whether to explore the brain or to cure and even enhance the brain.
 
-![VLab](assets/images/VLabCapture.PNG "VLab")
+![VLab](assets/images/VLabCapture.PNG "VLab"){:.border.rounded.shadow}
 
-![VLabAnalysis](assets/images/VLabAnalysisCapture.PNG "VLabAnalysis")
+![VLabAnalysis](assets/images/VLabAnalysisCapture.PNG "VLabAnalysis"){:.border.rounded.shadow}
 #### Authors and Contributors
 @babaq
 @leoscholl

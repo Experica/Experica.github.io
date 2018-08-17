@@ -1,8 +1,12 @@
 ---
-layout: default
+layout: article
+title: Setup
+sidebar:
+  nav: docs
+aside:
+  toc: true
 ---
 
-# Setup
 
 ## Setup Hardware 
 Most of computers in the market should be enough to run VLAB system, but some flexibility is always prefered in a lab environment, we recommand building a custom PC, otherwise make sure your machine has enough space or slots for whatever adaptors needed.
