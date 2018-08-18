@@ -1,6 +1,6 @@
 ---
 layout: article
-permalink: /about/
+permalink: /about
 ---
 
 VLAB 

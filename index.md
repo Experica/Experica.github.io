@@ -1,6 +1,8 @@
 ---
 layout: article
+permalink: /index
 ---
+
 “Rome wasn't built in a day”, so is our understanding of the world. All heroic adventures in our history started by testing and experimenting in a confined and controlled environment. This is actually a virtual environment in a laboratory and VLAB is a software system to help us managing the virtual environment.
 
 Given a virtual environment, if we can intercept and insert any logic between interaction of subjects, then we can analyze the physical laws of the world and through which to control the world. VLAB is designed on those conceptions and try to achieve several favorable traits.
