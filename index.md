@@ -24,6 +24,3 @@ Beside aforementioned design goal, VLAB is also cross-platform and be able to wo
 ![VLab](assets/images/VLabCapture.PNG "VLab"){:.border.rounded.shadow}
 
 ![VLabAnalysis](assets/images/VLabAnalysisCapture.PNG "VLabAnalysis"){:.border.rounded.shadow}
-#### Authors and Contributors
-@babaq
-@leoscholl
