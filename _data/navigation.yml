@@ -1,6 +1,4 @@
 header:
-  - title: Home
-    url:   /index
   - title: Documentation
     url:   /docs/introduction
   - title: About
