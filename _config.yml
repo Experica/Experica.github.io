@@ -83,7 +83,7 @@ paginate: 8
 paginate_path: /page:num # don't change this unless for special need
 
 # Build settings
-incremental: false
+incremental: true
 livereload: true
 markdown: kramdown
 highlighter : rouge
