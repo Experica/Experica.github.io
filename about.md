@@ -3,7 +3,7 @@ layout: article
 permalink: /about
 ---
 
-VLAB 
+Experica 
 
 #### Authors and Contributors
 @babaq
