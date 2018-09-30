@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
-title: VLAB
+title: Experica
 email: vlabsys@gmail.com
 description: Experiment System
 baseurl: "" # the subpath of your site, e.g. /blog
