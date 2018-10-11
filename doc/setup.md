@@ -1,6 +1,6 @@
 ---
 title: Setup
-permalink: /docs/setup
+permalink: /doc/setup
 ---
 
 ## Setup Hardware 

@@ -2,16 +2,16 @@ header:
   - title: Home
     url:   /
   - title: Documentation
-    url:   /docs/introduction
+    url:   /doc/introduction
   - title: About
     url:   /about
   - title: GitHub
-    url:   https://github.com/vlabsys
+    url:   https://github.com/experica
 
-docs:
+doc:
   - title: Start
     children:
       - title: Introduction
-        url: /docs/introduction
+        url: /doc/introduction
       - title: Setup
-        url: /docs/setup
+        url: /doc/setup

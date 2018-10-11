@@ -21,6 +21,6 @@ Given a virtual environment, if we can intercept and insert any logic between in
 
 Beside aforementioned design goal, VLAB is also cross-platform and be able to work with many hardware systems. We hope VLAB could help scientists and engineers, whether to explore the brain or to cure and even enhance the brain.
 
-![VLab](assets/images/VLabCapture.PNG "VLab"){:.border.rounded.shadow}
+![Command](assets/images/Command.PNG "Command"){:.border.rounded.shadow}
 
-![VLabAnalysis](assets/images/VLabAnalysisCapture.PNG "VLabAnalysis"){:.border.rounded.shadow}
+![Analysis](assets/images/Analysis.PNG "Analysis"){:.border.rounded.shadow}

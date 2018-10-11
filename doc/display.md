@@ -1,6 +1,6 @@
 ---
 title: Display
-permalink: /docs/display
+permalink: /doc/display
 ---
 
 ## Types of Display
