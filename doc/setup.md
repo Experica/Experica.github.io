@@ -13,7 +13,7 @@ Minimum:
 - Graphics: 6GB, DirectX 12/Vulkan, Adaptive-Sync
 - Display: 1080p, 120Hz, Adaptive-Sync
 
-Simple fast digital trigger can be done through parallel port, but most computers no longer has buildin parallel port, a PCIe parallel port adaptor can be used instead.
+Simple fast digital trigger can be sent through parallel port, but most computers no longer has buildin parallel port, a PCIe parallel port adaptor can be used instead.
 
 In order to get precise timing of display refresh, photodiode measuring is needed, but it's more conveniant to convert photodiode analog signal to TTL digital signal. Make your own or checkout this [Photodiode Logic Board](https://github.com/Experica/LPC43xx_M4_AnalogToDigital).
 
@@ -27,5 +27,5 @@ In order to get precise timing of display refresh, photodiode measuring is neede
 ## Setup Experica
 - Update Drivers and OS 
 - Clone [Command](https://github.com/Experica/Command)/[Environment](https://github.com/Experica/Environment)/[Analysis](https://github.com/Experica/Analysis) from Experica Github repositories.
-- Install Drivers/Plugins in /Command/Install/ as needed.
+- Install Drivers or Plugins in folder /Command/Install/ as needed.
 - Since no executable binary is included in the repositories, you should open Command/Environment/Analysis in Unity editor to do test runs. Do build in Unity editor whenever you find appropriate.
