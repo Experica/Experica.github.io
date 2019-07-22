@@ -17,6 +17,8 @@ doc:
         url: /doc/setup
       - title: Configuration
         url: /doc/configuration
+      - title: Display Calibration
+        url: /doc/displaycalibration
   - title: Architecture
     children:
       - title: Display Calibration
