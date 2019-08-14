@@ -11,3 +11,7 @@ By default, **Experica** is using [Unity Linear Rendering](https://docs.unity3d.
 
 To calibrate the gamma response curve of a display, series of linearly spaced digital R,G,B primary color values are used to specify a color, and it's final luminance on the display are measured by a [photometer](https://en.wikipedia.org/wiki/Photometer) or [spectroradiometer](https://en.wikipedia.org/wiki/Spectroradiometer). After fitting the display response function, a counter function is constructed, usually in a [lookup table](https://en.wikipedia.org/wiki/Lookup_table), and will be applied before sending images to the display.
 
+![Intensity Measurement of ViewSonic VX3276mhd](/assets/images/VX3276mhd_Intensity_Measurement.svg "Gamma")
+![Linear Spline Correction](/assets/images/VX3276mhd_Intensity_LinearSplineCLUTTest.svg "GammaCorrection")
+
+In Unity linear rendering mode, the final backbuffer will be encoded in [sRGB](https://en.wikipedia.org/wiki/SRGB) and usually counteracts with the gamma response curve of display, resulting a almost linear luminance response.
