@@ -4,18 +4,18 @@ permalink: /doc/setup
 ---
 
 ## Setup Hardware 
-Experica system should be able to run on most of machines. However, we recommend building a custom PC which provides the flexibility for upgrades or addon cards.
+**Experica** system should be able to run on most of machines. However, we recommend building a custom PC which provides the flexibility for upgrades or addon cards.
 
 Minimum:
-- CPU: Intel/AMD 4 cores
+- CPU: 4 cores
 - Memory: 16GB
 - Network: 1Gb Ethernet
 - Graphics: 6GB, DirectX 12/Vulkan, Adaptive-Sync
 - Display: 1080p, 120Hz, Adaptive-Sync
 
-Simple fast digital trigger can be sent through parallel port, but most computers no longer has buildin parallel port, a PCIe parallel port adaptor can be used instead.
+Digital IO can be realized by Parallel Port or USB-GPIO, and most of Multi-Function DAQ device equips both digital and analog IO.
 
-In order to get precise timing of display refresh, photodiode measuring is needed, but it's more conveniant to convert photodiode analog signal to TTL digital signal. Make your own or checkout this [Photodiode Logic Board](https://github.com/Experica/LPC43xx_M4_AnalogToDigital).
+In order to get precise timing of display refresh, photodiode measuring is needed, but it's more convenient to convert photodiode analog signal to digital signal. Make your own or checkout this [Photodiode Logic Board](https://github.com/Experica/LPC43xx_M4_AnalogToDigital).
 
 ## Setup Software 
 
