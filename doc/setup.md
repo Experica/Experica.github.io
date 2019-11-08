@@ -13,7 +13,7 @@ Minimum:
 - Graphics: 6GB, DirectX 12/Vulkan, Adaptive-Sync
 - Display: 1080p, 120Hz, Adaptive-Sync
 
-Digital IO can be realized by Parallel Port or USB-GPIO, and most of Multi-Function DAQ device equips both digital and analog IO.
+Digital IO can be realized by Parallel Port(PCIe adaptor card), USB-GPIO([USB bridging chip](https://www.adafruit.com/product/2264)) and DAQ device([multi-function digital and analog IO](https://www.mccdaq.com/)).
 
 In order to get precise timing of display refresh, photodiode measuring is needed, but it's more convenient to convert photodiode analog signal to digital signal. Make your own or checkout this [Photodiode Logic Board](https://github.com/Experica/LPC43xx_M4_AnalogToDigital).
 
