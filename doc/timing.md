@@ -9,8 +9,8 @@ Because the **Marker** is flipping between two colors, it would be natural to co
 
 The asymmetric [display response time](https://en.wikipedia.org/wiki/Comparison_of_CRT,_LCD,_Plasma,_and_OLED_displays) between Black->White, i.e. rising and White->Black, i.e. falling could introduce different lags when photodiode analog signal being threshold and converted to digital signal. To get the exact frame change time, these two lags should be measured and saved for the specifically configurated display and used later to correct the digital signal flip time.
 
-![RiseLag](/assets/images/RiseLag.jpg "RiseLag")
-![FallLag](/assets/images/FallLag.jpg "FallLag")
+![RiseLag](/assets/images/RiseLag.png "RiseLag")
+![FallLag](/assets/images/FallLag.png "FallLag")
 
 In addition to `Measure` **Marker** on display, a duplicated `Sync` digital signal is needed to provide extra robustness to recover possibly corrupted `Measure` signal.
 
