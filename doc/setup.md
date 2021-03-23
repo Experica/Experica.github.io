@@ -4,23 +4,19 @@ permalink: /doc/setup
 ---
 
 ## Setup Hardware 
-**Experica** system should be able to run on most of machines. However, we recommend building a custom PC which provides the flexibility for upgrades or addon cards.
+**Experica** system could run on most machines. However, a custom-built machine would provide more flexibility.
 
-Minimum:
 - CPU: 4 cores
-- Memory: 16GB
-- Network: 1Gb Ethernet
-- Graphics: 6GB, DirectX 12/Vulkan, Adaptive-Sync
+- RAM: 16GB
+- Network: Gb Ethernet
+- GPU: 6GB, DirectX 12/Vulkan
 - Display: 1080p, 120Hz, Adaptive-Sync
 
-Digital IO can be realized by Parallel Port(PCIe adaptor card), USB-GPIO([USB bridging chip](https://www.adafruit.com/product/2264)) and DAQ device([multi-function digital and analog IO](https://www.mccdaq.com/)).
-
-In order to get precise timing of display refresh, photodiode measuring is needed, but it's more convenient to convert photodiode analog signal to digital signal. Make your own or checkout this [Photodiode Logic Board](https://github.com/Experica/LPC43xx_M4_AnalogToDigital).
+General Purpose Digital IO can be obtained through Parallel Port(PCIe adaptor card), USB-GPIO([USB bridging chip](https://www.adafruit.com/product/2264)) and DAQ device([multi-function digital and analog IO](https://www.mccdaq.com/)).
 
 ## Setup Software 
-
-- Setup appropriate UEFI parameter.
-- Install Operating System, Linux/Windows/Mac should all be able to run Experica, but currently only Windows 7/10 are tested.
+- Setup UEFI.
+- Install Operating System(Linux/Windows/Mac). Currently only Windows 7/10 are tested.
 - Get Git or simply use [GitHub Desktop](https://desktop.github.com/).
 - Install Unity and IDE. [UnityHub](https://unity3d.com/get-unity/download) can install both of them.
 
