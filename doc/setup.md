@@ -22,6 +22,6 @@ General Purpose Digital IO can be obtained through Parallel Port(PCIe adaptor ca
 
 ## Setup Experica
 - Update Drivers and OS 
-- Clone [Command](https://github.com/Experica/Command)/[Environment](https://github.com/Experica/Environment)/[Analysis](https://github.com/Experica/Analysis) from Experica Github repositories.
+- Clone [Command](https://github.com/Experica/Command)/[Environment](https://github.com/Experica/Environment)/[Analysis](https://github.com/Experica/Analysis) from Github repositories, or download binaries from Github Releases.
 - Install Drivers or Plugins in folder /Command/Install/ as needed.
-- Since no executable binary is included in the repositories, you should open Command/Environment/Analysis in Unity editor to do test runs. Do build in Unity editor whenever you find appropriate.
+- Open Command/Environment/Analysis in Unity editor to do test runs. Do build in Unity editor whenever you find appropriate.
