@@ -3,7 +3,7 @@ title: Timing
 permalink: /doc/timing
 ---
 
-The time when display refresh frame could be  measured directly. A **Marker**, usually small square at corner of viewport on the topmost layer, could flip between two colors, e.g. black and white, in different frames. A photodiode can be placed on the **Marker** converting light intensity to electrical signal. By recording and analyzing the signal, the light intensity change time can be extracted and that would be the exact frame change time. 
+The time when display refresh frame could be  measured directly. A **Marker**, usually small square at corner of viewport on the topmost layer, could flip between two colors, e.g. black and white, in different frames. A [photodiode](https://en.wikipedia.org/wiki/Photodiode) can be placed on the **Marker** converting light intensity to electrical signal. By recording and analyzing the signal, the light intensity change time can be extracted and that would be the exact frame change time. 
 
 Because the **Marker** is flipping between two colors, it would be natural to convert the photodiode analog signal to digital signal and it can be done in real-time by a [Photodiode Logic Board](https://github.com/Experica/LPC43xx_M4_AnalogToDigital).
 

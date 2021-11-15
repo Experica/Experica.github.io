@@ -4,7 +4,7 @@ permalink: /doc/setup
 ---
 
 ## Setup Hardware 
-**Experica** system could run on most machines. However, a custom-built machine would provide more flexibility.
+**Experica** system should run on most machines. However, a custom-built machine could provide more flexibility.
 
 - CPU: 4 cores
 - RAM: 16GB
@@ -12,7 +12,7 @@ permalink: /doc/setup
 - GPU: 6GB, DirectX 12/Vulkan
 - Display: 1080p, 120Hz, Adaptive-Sync
 
-General Purpose Digital IO can be obtained through Parallel Port(PCIe adaptor card), USB-GPIO([USB bridging chip](https://www.adafruit.com/product/2264)) and DAQ device([multi-function digital and analog IO](https://www.mccdaq.com/)).
+General Purpose IO can be obtained through expansion cards and different interfaces would have different latencies, e.g. PCIe ~0.01ms, USB ~1ms. Parallel Port(PCIe adaptor card), USB-GPIO([USB bridging chip](https://www.adafruit.com/product/2264)) and DAQ device([multi-function digital and analog IO](https://www.mccdaq.com/)) have been tested.
 
 ## Setup Software 
 - Setup UEFI.
