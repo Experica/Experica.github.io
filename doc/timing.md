@@ -12,11 +12,9 @@ The asymmetric [display response time](https://en.wikipedia.org/wiki/Comparison_
 ![RiseLag](/assets/images/RiseLag.png "RiseLag")
 ![FallLag](/assets/images/FallLag.png "FallLag")
 
-In addition to `Measure` **Marker** on display, a duplicated `Sync` digital signal is needed to provide extra robustness to recover possibly corrupted `Measure` signal.
+Usually, any experimental event that need to notify external device will send signal through at least two channels. The first channel(`Sync`) often goes through digital GPIO(<0.1ms latency), marking the time event issued. The second channel(`Measure`) is by photodiode detecting exact time of event happening on display. Usually, signals in these two channels are the same, providing extra robustness, in case of signal corruption.
 
-The `Sync` signal is usually sent through Parallel Port or USB-GPIO, which should be very fast(<0.1ms) so that the external DAQ Device will be notified immediately at the time of a event. The `Command` event time is the result of the internal timer used to manage all time related functions in **Command**. In case of corrupted `Sync` signal, the internal `Command` time could be converted to external DAQ `Sync` time by a time zero delay and timer drift speed between **Command** and DAQ. These parameters could be calculated from a test run with `Sync` signal and set in experiment parameter panel.
-
-The TimerDriftSpeed and Display Latency could be updated based on data. this is only useful in case sync and measure channles have currupted data, and timing needs those parameters to do corrections, otherwise those parameters would be automatically evaluated in dataexport
+The **Experica** has a internal timeline that are used to manage all experiment logic. The event time on this timeline(`Command`) could be converted to external device `Sync` time by a time zero delay and timer drift speed between **Command** and the device. These parameters and display latency could be calculated based on data, and used to correct any corrupted data. They will be evaluated automatically during the [DataExport](https://github.com/Experica/NeuroAnalysis).
 
 Here shows condition duration from photodiode real-time digital convertion, corrected by above asymmetric display response time.
 
