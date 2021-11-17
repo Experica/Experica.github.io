@@ -18,5 +18,5 @@ The **Experica** has a internal timeline that are used to manage all experiment 
 
 Here shows condition duration from photodiode real-time digital convertion, corrected by above asymmetric display response time.
 
-![Long](/assets/images/Condition Duration (500ms).svg "Long")
-![Short](/assets/images/Condition Duration (22ms).svg "Short")
+![Long](/assets/images/ConditionDuration(500ms).svg "Long")
+![Short](/assets/images/ConditionDuration(22ms).svg "Short")
