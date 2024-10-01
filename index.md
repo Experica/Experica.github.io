@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: splash
 permalink: /
 ---
 
@@ -27,10 +27,10 @@ Beside aforementioned design goal, Experica is also cross-platform and be able t
 
 Powering Next Generation Research and Application
 
-![](assets/images/Salk.PNG)
+![](assets/images/Salk.png)
 
-![](assets/images/UCIrvine.PNG)
+![](assets/images/UCIrvine.png)
 
-![](assets/images/ZhejiangUniversity.PNG)
+![](assets/images/ZhejiangUniversity.png)
 
 ![](assets/images/ChineseAcademyOfSciences.jpeg)
