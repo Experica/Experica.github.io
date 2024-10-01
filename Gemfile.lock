@@ -284,9 +284,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll
   jekyll-feed
-  minima
   minimal-mistakes-jekyll
   tzinfo-data
 
