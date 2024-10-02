@@ -1,6 +1,16 @@
 ---
 layout: splash
 permalink: /
+
+header:
+  overlay_color: "#121201"
+excerpt: "Accelerating Innovation"
+
+feature_row:
+  - image_path: assets/images/logo-UCI.svg
+  - image_path: assets/images/logo-Salk.svg
+  - image_path: assets/images/logo-ZJU.svg
+  - image_path: assets/images/logo-CAS.svg
 ---
 
 “Rome wasn't built in a day”, so is our understanding of the world. All heroic adventures in our history started by testing and experimenting in a confined and controlled environment. This is actually a virtual environment in a laboratory and Experica is a software system to help us managing the virtual environment.
@@ -25,12 +35,8 @@ Beside aforementioned design goal, Experica is also cross-platform and be able t
 
 ![Analysis](assets/images/Analysis.PNG "Analysis"){:.border.rounded.shadow}
 
-Powering Next Generation Research and Application
+---
+# **Powering Frontier Research and Application**
+{: .text-center}
 
-![](assets/images/Salk.png)
-
-![](assets/images/UCIrvine.png)
-
-![](assets/images/ZhejiangUniversity.png)
-
-![](assets/images/ChineseAcademyOfSciences.jpeg)
+{% include feature_row %}

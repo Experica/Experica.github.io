@@ -277,8 +277,6 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll-feed
-  jekyll-include-cache
   tzinfo-data
 
 BUNDLED WITH
